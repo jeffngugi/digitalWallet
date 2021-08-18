@@ -13,7 +13,7 @@ import {Home, Scan} from '../screens'
 import {COLORS, icons, style  } from '../constants'
 
 const Tab = createBottomTabNavigator();
-const TabBarCustomButton =({accessibilityLabel, accessibilityState, children, onPress})=>{
+const TabBarCustomButton =  ({accessibilityLabel, accessibilityState, children, onPress})=>{
 
     var isSelected = accessibilityState.selected
 
